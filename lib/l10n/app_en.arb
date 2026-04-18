@@ -1,0 +1,112 @@
+{
+  "@@locale": "en",
+  "appTitle": "Score",
+
+  "home_chooseGame": "Choose a game",
+  "home_players": "Players",
+  "home_history": "History",
+
+  "players_title": "Players",
+  "players_addPlayer": "Add player",
+  "players_namePlaceholder": "Name",
+  "players_add": "Add",
+  "players_empty": "No players yet. Add one!",
+  "players_deleteConfirm": "Delete {name}?",
+  "@players_deleteConfirm": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "setup_title": "Yahtzee",
+  "setup_selectPlayers": "Select players",
+  "setup_quickAdd": "Quick add",
+  "setup_startGame": "Start game",
+  "setup_minPlayers": "Select at least 1 player",
+  "setup_noPlayers": "No players yet. Go to Players first and add some.",
+
+  "yahtzee_roll": "Roll",
+  "yahtzee_rollsLeft": "{count} roll(s) left",
+  "@yahtzee_rollsLeft": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "yahtzee_round": "Round {round} of 13",
+  "@yahtzee_round": {
+    "placeholders": {
+      "round": {"type": "int"}
+    }
+  },
+  "yahtzee_currentPlayer": "{name}'s turn",
+  "@yahtzee_currentPlayer": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "yahtzee_tapToScore": "Tap a category to score",
+  "yahtzee_mustScore": "No rolls left — choose a category",
+  "yahtzee_scorecard": "Scorecard",
+
+  "yahtzee_upper": "Upper section",
+  "yahtzee_cat_ones": "Ones",
+  "yahtzee_cat_twos": "Twos",
+  "yahtzee_cat_threes": "Threes",
+  "yahtzee_cat_fours": "Fours",
+  "yahtzee_cat_fives": "Fives",
+  "yahtzee_cat_sixes": "Sixes",
+  "yahtzee_bonus": "Bonus (≥ 63 = +35)",
+  "yahtzee_bonusProgress": "{current} / 63",
+  "@yahtzee_bonusProgress": {
+    "placeholders": {
+      "current": {"type": "int"}
+    }
+  },
+
+  "yahtzee_lower": "Lower section",
+  "yahtzee_cat_threeOfAKind": "Three of a Kind",
+  "yahtzee_cat_fourOfAKind": "Four of a Kind",
+  "yahtzee_cat_fullHouse": "Full House",
+  "yahtzee_cat_smallStraight": "Small Straight",
+  "yahtzee_cat_largeStraight": "Large Straight",
+  "yahtzee_cat_yahtzee": "Yahtzee!",
+  "yahtzee_cat_chance": "Chance",
+  "yahtzee_yahtzeeBonusLabel": "Yahtzee Bonus",
+
+  "yahtzee_upperSubtotal": "Upper subtotal",
+  "yahtzee_total": "Total",
+
+  "result_title": "Game over!",
+  "result_winner": "🎉 {name} wins!",
+  "@result_winner": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "result_tie": "🤝 It's a tie!",
+  "result_finalScores": "Final scores",
+  "result_newGame": "New game",
+  "result_home": "Home",
+
+  "history_title": "History",
+  "history_empty": "No games played yet",
+  "history_winner": "Winner: {name}",
+  "@history_winner": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "history_tie": "Tie",
+  "history_players": "{count} players",
+  "@history_players": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "save": "Save",
+  "back": "Back",
+  "ok": "OK"
+}

@@ -1,0 +1,112 @@
+{
+  "@@locale": "nl",
+  "appTitle": "Score",
+
+  "home_chooseGame": "Kies een spel",
+  "home_players": "Spelers",
+  "home_history": "Geschiedenis",
+
+  "players_title": "Spelers",
+  "players_addPlayer": "Speler toevoegen",
+  "players_namePlaceholder": "Naam",
+  "players_add": "Toevoegen",
+  "players_empty": "Nog geen spelers. Voeg er een toe!",
+  "players_deleteConfirm": "Wil je {name} verwijderen?",
+  "@players_deleteConfirm": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "setup_title": "Yahtzee",
+  "setup_selectPlayers": "Kies spelers",
+  "setup_quickAdd": "Snel toevoegen",
+  "setup_startGame": "Spel starten",
+  "setup_minPlayers": "Kies minimaal 1 speler",
+  "setup_noPlayers": "Nog geen spelers. Ga eerst naar Spelers en voeg er een toe.",
+
+  "yahtzee_roll": "Gooi",
+  "yahtzee_rollsLeft": "{count} gooi(en) over",
+  "@yahtzee_rollsLeft": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "yahtzee_round": "Ronde {round} van 13",
+  "@yahtzee_round": {
+    "placeholders": {
+      "round": {"type": "int"}
+    }
+  },
+  "yahtzee_currentPlayer": "{name} is aan de beurt",
+  "@yahtzee_currentPlayer": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "yahtzee_tapToScore": "Tik op een categorie om te scoren",
+  "yahtzee_mustScore": "Geen worpen meer — kies een categorie",
+  "yahtzee_scorecard": "Scorekaart",
+
+  "yahtzee_upper": "Bovensectie",
+  "yahtzee_cat_ones": "Enen",
+  "yahtzee_cat_twos": "Tweeën",
+  "yahtzee_cat_threes": "Drieën",
+  "yahtzee_cat_fours": "Vieren",
+  "yahtzee_cat_fives": "Vijven",
+  "yahtzee_cat_sixes": "Zessen",
+  "yahtzee_bonus": "Bonus (≥ 63 = +35)",
+  "yahtzee_bonusProgress": "{current} / 63",
+  "@yahtzee_bonusProgress": {
+    "placeholders": {
+      "current": {"type": "int"}
+    }
+  },
+
+  "yahtzee_lower": "Ondersectie",
+  "yahtzee_cat_threeOfAKind": "Drie van een soort",
+  "yahtzee_cat_fourOfAKind": "Vier van een soort",
+  "yahtzee_cat_fullHouse": "Full house",
+  "yahtzee_cat_smallStraight": "Kleine straat",
+  "yahtzee_cat_largeStraight": "Grote straat",
+  "yahtzee_cat_yahtzee": "Yahtzee!",
+  "yahtzee_cat_chance": "Vrije keuze",
+  "yahtzee_yahtzeeBonusLabel": "Yahtzee-bonus",
+
+  "yahtzee_upperSubtotal": "Subtotaal boven",
+  "yahtzee_total": "Totaal",
+
+  "result_title": "Einde spel!",
+  "result_winner": "🎉 {name} wint!",
+  "@result_winner": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "result_tie": "🤝 Gelijkspel!",
+  "result_finalScores": "Eindscores",
+  "result_newGame": "Nieuw spel",
+  "result_home": "Naar home",
+
+  "history_title": "Geschiedenis",
+  "history_empty": "Nog geen gespeelde potjes",
+  "history_winner": "Winnaar: {name}",
+  "@history_winner": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "history_tie": "Gelijkspel",
+  "history_players": "{count} spelers",
+  "@history_players": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "cancel": "Annuleren",
+  "delete": "Verwijderen",
+  "save": "Opslaan",
+  "back": "Terug",
+  "ok": "OK"
+}
